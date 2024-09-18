@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="listen.jpg" alt="Logo">
+                Listen
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Song Item Container -->
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="Cover">
+                <div class="songName">Warriyo - Mortals [NCS Release]</div>
+                <i class="fa fa-play-circle songItemPlay" id="0"></i>
+            </div>
+            <div class="songItem">
+                <img src="covers/2.jpg" alt="Cover">
+                <div class="songName">Cielo - Huma-Huma</div>
+                <i class="fa fa-play-circle songItemPlay" id="1"></i>
+            </div>
+
+          
+        </div>
+    </div>
+
+    
+    <div class="bottom">
+        <div class="icons">
+            <i class="fa fa-backward" id="previous"></i>
+            <i class="fa fa-play-circle" id="masterPlay"></i>
+            <i class="fa fa-forward" id="next"></i>
+        </div>
+        <div id="myProgressBar" class="progress-bar" value="0"></div>
+        <div class="songInfo">
+            <span id="masterSongName">Select a song</span>
+            <img id="gif" src="loading.gif" alt="Loading">
+        </div>
+    </div>
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
